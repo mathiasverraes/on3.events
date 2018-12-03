@@ -374,3 +374,12 @@ nav a:hover {
         page-break-after: avoid;
     }
 }
+
+.logo {
+    width: 270px;
+    height: 135px;
+
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);
+}
