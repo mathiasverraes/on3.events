@@ -1,0 +1,50 @@
+#counter-section {
+  background-size: cover;
+  height: 100%;
+  padding-top: 130px;
+  padding-bottom: 120px;
+  text-align: center;
+
+  .counter-container {
+    width: 2000;
+    display: inline-block;
+  }
+
+  nav {
+    background: transparent;
+    padding-bottom: 0;
+    max-width: 1300px;
+
+    > div {
+      padding: 5px 10px 0 0;
+      flex: 1;
+    }
+  }
+  .level {
+    img {
+      align-content: left;
+      max-width: 100px;
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 5px;
+    }
+    .title {
+      font-size: 52px;
+      font-weight: bold;
+    }
+    .heading {
+      font-size: 22px;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+    .level-item {
+      display: flex;
+      flex-basis: auto;
+      flex-grow: 0;
+      flex-shrink: 0;
+    }
+    .text-item {
+      min-width: 190px;
+    }
+  }
+}

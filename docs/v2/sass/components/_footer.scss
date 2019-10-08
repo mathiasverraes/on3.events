@@ -1,0 +1,22 @@
+footer {
+  background-color: white;
+
+  .container {
+    border-top: 1px solid #cccccc;
+    padding-top: 35px;
+    padding-bottom: 30px;
+  }
+
+  .footermenu {
+    li {
+      float: left;
+      margin: 0 0px;
+      padding: 0 15px;
+      line-height: 16px;
+
+      a {
+        color: #464646;
+      }
+    }
+  }
+}

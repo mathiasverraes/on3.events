@@ -1,0 +1,17 @@
+.navbar {
+  .navbar-burger {
+    color: white;
+  }
+
+  .navbar-menu.is-active {
+    @media screen and (max-width: 1023px) {
+      a {
+        color: #363636;
+
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}

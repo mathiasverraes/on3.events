@@ -1,0 +1,81 @@
+.font-black {
+  font-weight: 700 !important;
+}
+
+.font-bold {
+  font-weight: 500 !important;
+}
+
+.shadow {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+$spaceamounts: (
+  0,
+  3,
+  4,
+  5,
+  8,
+  10,
+  12,
+  15,
+  18,
+  20,
+  24,
+  25,
+  30,
+  35,
+  40,
+  45,
+  50,
+  55,
+  60,
+  65,
+  67,
+  70,
+  75,
+  80,
+  85,
+  90,
+  95,
+  100,
+  108,
+  110,
+  120,
+  130,
+  140,
+  150
+); // Adjust this to include the pixel amounts you need.
+$sides: (top, bottom, left, right); // Leave this variable alone
+
+@each $space in $spaceamounts {
+  @each $side in $sides {
+    .m-#{str-slice($side, 0, 1)}-#{$space} {
+      margin-#{$side}: #{$space}px !important;
+    }
+
+    .p-#{str-slice($side, 0, 1)}-#{$space} {
+      padding-#{$side}: #{$space}px !important;
+    }
+  }
+}

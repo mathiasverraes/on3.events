@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
+
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+
+// color pallete
+$primary-color: #ffa200;
+$background-light: #fff;
+$third-color: #74d1c6;
+$fourth-colo: #fff02a;
+
+$primary: $primary-color;
+$link: $primary;
+
+$fullhd: 1140px;
+//$fa-font-path: "";
+
+@import "~bulma/bulma";
+
+@import "./helpers";
+@import "./components/banner";
+@import "./components/search-section";
+@import "./components/deals-section";
+@import "./components/destination-section";
+@import "./components/packages-section";
+@import "./components/counter-section";
+@import "./components/contact-section";
+@import "./components/navbar";
+@import "./components/footer";
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+a {
+  color: white;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+.columns {
+  margin: 0 10px 0 10px;
+}
+
+.is-border-right {
+  border-right: 2px solid #464646;
+}
