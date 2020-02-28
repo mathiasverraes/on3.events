@@ -1,0 +1,15 @@
+{
+  "name": "on3-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss build src/style.css -o static/css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/ui": "^0.1.2",
+    "tailwindcss": "^1.2.0"
+  }
+}
