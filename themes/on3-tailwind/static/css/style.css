@@ -612,6 +612,10 @@ main a {
   text-decoration: underline;
 }
 
+main p {
+  margin-bottom: 0.5rem;
+}
+
 .container {
   width: 100%;
 }

@@ -12,6 +12,9 @@ main h3 {
 main a {
 @apply text-blue-600 underline;
 }
+main p {
+@apply mb-2;
+}
 
 
 @tailwind components;
