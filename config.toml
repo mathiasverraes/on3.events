@@ -3,3 +3,25 @@ languageCode = "en-us"
 title = "On3 Events"
 
 theme = "on3-tailwind"
+
+[menu]
+  [[menu.main]]
+    identifier = "event_management"
+    name = "Event Management"
+    title = "Event Management"
+    url = "/event_management/"
+  [[menu.main]]
+    identifier = "event_incubation"
+    name = "Event Incubation"
+    title = "Event Incubation"
+    url = "/event_incubation/"
+  [[menu.main]]
+    identifier = "team"
+    name = "The team"
+    title = "The team"
+    url = "/team/"
+  [[menu.main]]
+    identifier = "values"
+    name = "Values"
+    title = "values"
+    url = "/values"
