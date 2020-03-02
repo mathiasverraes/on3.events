@@ -17,7 +17,7 @@
                 {{ if (ne $index 0 ) }}
                     {{ $class = (printf "%s %s" "ml-4" $class ) }}
                 {{ end }}
-            <a href="{{ $item.URL }}" class="{{ $class }}">{{ $item.Name }}</a>
+            <a href="{{ $item.URL }}" class="{{ $class }}">{{ $item.Title }}</a>
             {{ end }}
             </div>
           </div>
@@ -45,7 +45,7 @@
             {{ if (ne $index 0 ) }}
                 {{ $class = (printf "%s %s" "mt-1" $class ) }}
             {{ end }}
-        <a href="{{ $item.URL }}" class="{{ $class }}">{{ $item.Name }}</a>
+        <a href="{{ $item.URL }}" class="{{ $class }}">{{ $item.Title }}</a>
         {{ end }}
       </div>
     </div>
