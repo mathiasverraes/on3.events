@@ -597,14 +597,21 @@ video {
 
 main h1 {
   font-size: 1.5rem;
+  line-height: 2rem;
+  color: #3f83f8;
+  padding-bottom: 2rem;
 }
 
 main h2 {
   font-size: 1.25rem;
+  line-height: 2rem;
+  padding-bottom: 1rem;
 }
 
 main h3 {
   font-size: 1.125rem;
+  line-height: 2;
+  padding-bottom: 1rem;
 }
 
 main a {
