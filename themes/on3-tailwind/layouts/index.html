@@ -79,97 +79,16 @@
     </div>
   </div>
 </div>
-<div class="relative bg-indigo-900">
-  <div
-    class="h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2"
-  >
-    <img
-      class="w-full h-full object-cover"
-      src="https://res.cloudinary.com/value-object/image/upload/c_scale,w_1200/v1570547283/on3/photos/venue.jpg"
-      alt="Venue"
-    />
-  </div>
-  <div
-    class="relative max-w-screen-xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16"
-  >
-    <div class="md:ml-auto md:w-1/2 md:pl-10">
-      <div
-        class="text-base leading-6 font-semibold uppercase tracking-wider text-gray-300"
-      >
-        Event Management
-      </div>
-      <h2
-        class="mt-2 text-white text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10"
-      >
-        We manage your event
-      </h2>
-      <p class="mt-3 text-lg leading-7 text-gray-300">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas
-        tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et
-        fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt
-        duis.
-      </p>
-      <div class="mt-8">
-        <div class="inline-flex rounded-md shadow">
-          <a
-            href="/main/event_management/"
-            class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-900 bg-white hover:text-gray-600 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-          >
-            More info
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="mt-8 relative bg-gray-800">
-  <div
-    class="h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2"
-  >
-    <img
-      class="w-full h-full object-cover"
-      src="https://res.cloudinary.com/value-object/image/upload/c_scale,w_1200/v1583147189/on3/site/temp-new/event_incubation.jpg"
-      alt="Event Overview"
-    />
-  </div>
-  <div
-    class="relative max-w-screen-xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16"
-  >
-    <div class="md:ml-auto md:w-1/2 md:pl-10">
-      <div
-        class="text-base leading-6 font-semibold uppercase tracking-wider text-gray-300"
-      >
-        Event Incubation
-      </div>
-      <h2
-        class="mt-2 text-white text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10"
-      >
-        We bring your event into life
-      </h2>
-      <p class="mt-3 text-lg leading-7 text-gray-300">
-        Our team is passionate about developing and founding new emering events.
-      </p>
-      <div class="mt-8">
-        <div class="inline-flex rounded-md shadow">
-          <a
-            href="/main/event_incubation/"
-            class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-900 bg-white hover:text-gray-600 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-          >
-            More info
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+
+{{ range sort (where $.Site.Pages "Params.show_main_page" true) "Params.main_page.weight" }}
 <div class="mt-8 relative bg-indigo-900">
   <div
     class="h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2"
   >
     <img
       class="w-full h-full object-cover"
-      src="https://res.cloudinary.com/value-object/image/upload/c_scale,w_600/v1583147425/on3/site/temp-new/event_support.jpg"
-      alt="Event Overview"
+      src="{{ .Params.main_page.img.url }}"
+      alt="{{ .Params.main_page.img.alt }}"
     />
   </div>
   <div
@@ -179,20 +98,20 @@
       <div
         class="text-base leading-6 font-semibold uppercase tracking-wider text-gray-300"
       >
-        Event Support
+        {{ .Params.main_page.title }}
       </div>
       <h2
         class="mt-2 text-white text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10"
       >
-        Your supporting team
+        {{ .Params.main_page.subtitle }}
       </h2>
       <p class="mt-3 text-lg leading-7 text-gray-300">
-        Do you have a great team but need support. We are ready for you.
+        {{ .Params.main_page.summary | markdownify }}
       </p>
       <div class="mt-8">
         <div class="inline-flex rounded-md shadow">
           <a
-            href="/main/event_support/"
+            href="{{ .Permalink }}"
             class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-900 bg-white hover:text-gray-600 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
           >
             More info
@@ -202,6 +121,7 @@
     </div>
   </div>
 </div>
+{{ end }}
 
 <div
   class="my-8 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-20 xl:mt-24"
