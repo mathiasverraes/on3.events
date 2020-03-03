@@ -1,5 +1,5 @@
 TAG = eu.gcr.io/infinitetree/on3-events
-.PHONY: build push
+.PHONY: build push serve
 
 build:
 	@hugo -D
@@ -7,3 +7,6 @@ build:
 
 push:
 	@docker push $(TAG)
+
+serve:
+	@hugo server -D
