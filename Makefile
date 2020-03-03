@@ -1,12 +1,15 @@
 TAG = eu.gcr.io/infinitetree/on3-events
-.PHONY: build push serve
+.PHONY: build push serve build-css
 
-build:
+build-css:
+	@cd themes/on3-tailwind && npm run build
+
+build: build-css
 	@hugo -D
 	@docker build -t $(TAG) .
 
 push:
 	@docker push $(TAG)
 
-serve:
+serve: build-css
 	@hugo server -D
