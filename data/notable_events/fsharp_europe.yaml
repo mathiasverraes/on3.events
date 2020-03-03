@@ -1,0 +1,16 @@
+weight: 3
+url:
+  https://fsharp.eu/2020
+img:
+  url: https://res.cloudinary.com/value-object/image/upload/c_scale,w_800/v1579108427/on3/site/fsharp.png
+  alt: FSharp Europe
+description:
+  "&ldquo;Lorem ipsum *foo* dolor sit amet consectetur adipisicing elit. Nemo
+  expedita voluptas culpa sapiente alias molestiae. Numquam corrupti
+  in laborum sed rerum et corporis.&rdquo;"
+event:
+  FSharp Europe
+name:
+  Mathias Verraes
+logo:
+  https://fsharp.eu/assets/2020/img/logo-full.svg

@@ -1,0 +1,16 @@
+weight: 1
+url:
+  https://dddeurope.com
+img:
+  url: https://res.cloudinary.com/value-object/image/upload/c_scale,w_800/v1579108102/on3/site/dddeu.png
+  alt: DDD Europe
+description:
+  "&ldquo;Lorem ipsum *foo* dolor sit amet consectetur adipisicing elit. Nemo
+  expedita voluptas culpa sapiente alias molestiae. Numquam corrupti
+  in laborum sed rerum et corporis.&rdquo;"
+event:
+  DDD Europe
+name:
+  Mathias Verraes
+logo:
+  https://res.cloudinary.com/value-object/image/upload/c_scale,w_800/v1579108102/on3/site/dddeu.png
