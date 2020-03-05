@@ -8,7 +8,7 @@ show_main_page: true
 main_page:
   weight: 2
   img: 
-    url: https://res.cloudinary.com/value-object/image/upload/c_scale,w_1200/v1570547283/on3/photos/venue.jpg
+    url: https://res.cloudinary.com/value-object/image/upload/c_scale,w_1200/v1583147189/on3/site/temp-new/event_management.jpg
     alt: Event Management
   title: Event Management
   subtitle: We build your event

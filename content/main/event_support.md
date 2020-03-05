@@ -27,21 +27,39 @@ You have an existing event, but it's eating into a huge amount of your time. Tim
 
 ### Sales
 
+Is manageing ticket sales boring you to death? Do they give you a huge amount of work? Let us handle this so you can focus on the important things of your event.
+
 ### Marketing
+
+If no one knows about your event, then ticket sales will be hard. We have experience with social media marketing to get more people to your event.
 
 ### Customer support
 
+When you build an event, you want happy people, and we always know things go wrong in unexpected ways. That's why we believe making sure people have access to great support helps you.
+
 ### Speaker hospitality
+
+Speakers are a very important part of your event and they need to be treated well. We can manage your speakers for you.
 
 ### Budgetting
 
+We can work together with you to create great budget forcasts and detailed reports after the event.
+
 ### Venue negotation
 
+A great venue doesn't necessarly makes a great event, but a bad venue can bring it down. Finding and negotation with the venue can be hard. We have experience negotiating with venues, so we are confident we can do this better than you.
+
 ### Contracting
+
+Contracts support trust between both parties. As long as everything is going well, you don't really feel the need for a good and clear contract, but when something goes wrong you can be in trouble. Having clear contracts with all parties is very important, so we offer we can do this for you.
 
 ### Travel
 
 Your event is growing and you have more and more speakers coming in. We can take care of all travel arrangements. Let us know what you need and we'll take care of it.
+
+### Sponsor deals
+
+Don't know how to approach possible sponsors? Do you feel that you are missing potential sponsor deals. Give us your leads and we'll close the deal.
 
 ### Advise
 
