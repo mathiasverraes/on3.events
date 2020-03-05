@@ -88,6 +88,8 @@ We provide bio straws (we can offer plastic straws for those who need it for acc
 
 We discussed thoroughly with our caterer the use of reusable plates. However, for this year, we are not able to provide all of our food on reusable plates. Where needed, we will use 100% biodegradable disposables that compost within 90 days and therefore meet the EN13432 standard. Of course, the sustainable use of disposables depends on a good collection and recycling.
 
+{{< figure src="https://res.cloudinary.com/value-object/image/upload/c_scale,w_1200/v1583419015/on3/site/temp-new/catering_veggie.jpg" title="Vegetarian food" >}}
+
 ### Recycling
 
 During the conference we optimize waste processing and recycling.
