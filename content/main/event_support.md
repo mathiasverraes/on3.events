@@ -43,6 +43,10 @@ You have an existing event, but it's eating into a huge amount of your time. Tim
 
 Your event is growing and you have more and more speakers coming in. We can take care of all travel arrangements. Let us know what you need and we'll take care of it.
 
+### Advise
+
+We are experienced in building events, so we can offer you advise on how to build better events.
+
 ### And much more
 
 Is there anything related to event support that you don't find in the list above, but that you want to stop doing yourself. Contact us and chances are high that we have experience with it and will offer it.
@@ -54,3 +58,6 @@ If you have an existing event and want have a limited amount of time or experien
 We have very custom offerings and together we'll pick the items that you want. 
 We'll be very transparent in everything we do, full upfront pricing.
 
+## Want to know more
+
+Contact us at <a href="mailto:eventsupport@on3.events">eventsupport@on3.events</a> or leave your email here and we'll come back to you.
