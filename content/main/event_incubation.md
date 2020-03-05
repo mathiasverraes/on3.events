@@ -6,7 +6,7 @@ menu:
   main
 show_main_page: true
 main_page:
-  weight: 1
+  weight: 3
   img: 
     url: https://res.cloudinary.com/value-object/image/upload/c_scale,w_1200/v1583147189/on3/site/temp-new/event_incubation.jpg
     alt: Event Incubation
