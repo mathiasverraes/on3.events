@@ -1,0 +1,30 @@
+<div class="bg-white overflow-hidden">
+    <div class="relative max-w-screen-xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
+      <div class="relative lg:flex lg:items-center">
+        <div class="hidden lg:block lg:flex-shrink-0">
+          <img class="h-64 w-64 rounded-full xl:h-80 xl:w-80" src="{{ .Get "img" }}" alt="picture of {{ .Get "name"}}" />
+        </div>
+  
+        <div class="relative lg:ml-10">
+          <blockquote>
+            <div class="text-2xl leading-9 font-medium text-gray-900">
+              <p>
+                {{ .Inner }}
+              </p>
+            </div>
+            <footer class="mt-8">
+              <div class="flex">
+                <div class="flex-shrink-0 lg:hidden">
+                  <img class="h-12 w-12 rounded-full" src="{{ .Get "img" }}" alt="picture of {{ .Get "name"}}" />
+                </div>
+                <div class="ml-4 lg:ml-0">
+                  <div class="text-base leading-6 font-medium text-grya-900">{{ .Get "name" }}</div>
+                  <div class="text-base leading-6 font-medium text-indigo-600">{{ .Get "role" }}</div>
+                </div>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
