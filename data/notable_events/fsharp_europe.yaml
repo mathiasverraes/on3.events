@@ -4,10 +4,17 @@ url:
 img:
   url: https://res.cloudinary.com/value-object/image/upload/c_scale,w_800/v1579108427/on3/site/fsharp.png
   alt: FSharp Europe
-description:
-  "&ldquo;Lorem ipsum *foo* dolor sit amet consectetur adipisicing elit. Nemo
-  expedita voluptas culpa sapiente alias molestiae. Numquam corrupti
-  in laborum sed rerum et corporis.&rdquo;"
+description: "I came into contact with On3Events when I was a speaker at one of their conferences, DDDEurope.
+
+
+I was impressed with their way of handling the logistics, which had a much higher standard than most conferences. They make you feel appreciated and valued as a speaker and as a person. On top of that, it is clear that they care deeply about the attendees too.
+
+
+I was so happy with my experience as a speaker that I decided to collaborate with them for F# Europe. The collaboration for F# Europe has been very constructive and I am very happy I can offer the speakers and attendees of F# Europe the same experience I had.
+
+Gien Verschatse
+Organiser, F# Europe
+Owner, Eight Point Squared"
 event:
   FSharp Europe
 logo:
